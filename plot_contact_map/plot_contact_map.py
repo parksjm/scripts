@@ -1,7 +1,7 @@
 # Plot contact maps from a file in CASP RR format
 # JMP 4/10/2020
 #
-# python contact_map.py --con gremlin_50_rr.txt --seq_len 433
+# python plot_contact_map.py --con gremlin_50_rr.txt --seq_len 433
 # 
 # where gremlin_50_rr.txt is something like:
 # 
@@ -27,7 +27,7 @@ def get_args():
                         dest="contactfile", help="contacts in rr format")
     parser.add_argument("--seq_len", type=int, default="433",
                         dest="seq_len", help="number of residues")
-    parser.add_argument("--out", type=str, default="test.png",
+    parser.add_argument("--png", type=str, default="test.png",
                         dest="outpng", help="name of output png")
 
     args = parser.parse_args()

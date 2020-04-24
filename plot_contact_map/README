@@ -1,0 +1,7 @@
+usage: python plot_contact_map.py [-h] [--con CONTACTFILE] [--seq_len SEQ_LEN]
+                      [--out OUTPNG]
+
+where CONTACTFILE is a list of interresidue contacts in CASP RR format,
+SEQ_LEN is the length of the query sequence, and OUTPNG is the name of the png file.
+
+example: python plot_contact_map.py --con gremlin_50_rr.txt --seq_len 433 --png gremlin_50_rr.png
