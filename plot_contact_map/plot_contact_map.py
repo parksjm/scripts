@@ -64,7 +64,7 @@ def plot_contacts3(inum, jnum, probability, seq_len, outpng):
  
     x, y = np.meshgrid(np.arange(mtx.shape[1]), np.arange(mtx.shape[0]))
     
-    fig, ax = plt.subplots(figsize=(6, 6))
+    fig, ax = plt.subplots(figsize=(3.1, 3.1))
 
     ax.set_xlim(0,433)
     ax.set_ylim(0,433)
