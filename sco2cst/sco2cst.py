@@ -218,24 +218,24 @@ def plot_contacts3(seq, inum, jnum, sscore, probs):
     plt.ylim(-seq_len, 0)
     plt.show()
 
-def write_restraints(inum, jnum)
+#def write_restraints(inum, jnum):
 
     #inum = [x + 1 for x in inum]
     #jnum = [x + 1 for x in jnum]
     #irenum = [x + 1 for x in irenum]
     #jrenum = [x + 1 for x in jrenum]
 
-    try:
-        with open('SIG_cst', 'w') as sigOut:
-            for i in range(len(irenum)):
+#    try:
+#        with open('SIG_cst', 'w') as sigOut:
+#            for i in range(len(irenum)):
                 # Scale the score by the probability
-                pscore = stuff[4][i] * prob[i]
+#                pscore = stuff[4][i] * prob[i]
 
-                if float(stuff[4][i]) >= float(sig_cut):
-                    sigOut.write("AtomPair %s %4s %s %4s SCALARWEIGHTEDFUNC %.3f \
-                            SUMFUNC 2 SIGMOID %6s %6s CONSTANTFUNC -0.5 #\n"
-                            % (stuff[0][i], stuff[1][i], stuff[2][i],
-                                stuff[3][i], pscore, stuff[5][i], stuff[6][i]))
+#                if float(stuff[4][i]) >= float(sig_cut):
+#                    sigOut.write("AtomPair %s %4s %s %4s SCALARWEIGHTEDFUNC %.3f \
+#                            SUMFUNC 2 SIGMOID %6s %6s CONSTANTFUNC -0.5 #\n"
+#                            % (stuff[0][i], stuff[1][i], stuff[2][i],
+#                                stuff[3][i], pscore, stuff[5][i], stuff[6][i]))
 
 def main():
     # Get command line arguments
@@ -273,7 +273,7 @@ def main():
     plot_contacts3(seq, inum, jnum, sscore, probs)
 
     # Write out the restraint files
-    write_restraints(inum, jnum)
+    #write_restraints(inum, jnum)
 
 if __name__ == "__main__":
     main()
