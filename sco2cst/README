@@ -1,0 +1,1 @@
+python sco2cst.py --msa 278.aln --sco scores.out --sig_cut 0.9 --bnd_cut 0.99 --ccm ccmpred.out 
