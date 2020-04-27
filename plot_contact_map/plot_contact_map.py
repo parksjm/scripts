@@ -85,8 +85,8 @@ def plot_contacts3(inum, jnum, probability, seq_len, outpng):
     ax.xaxis.set_label_position('top')
 
     plt.scatter(x, y, c = mtx, s=2, marker='o', cmap='Blues')
-    plt.xlabel("Residue")
-    plt.ylabel("Residue")
+    plt.xlabel("Residue", fontsize=12)
+    plt.ylabel("Residue", fontsize=12)
 
     plt.savefig(outpng, dpi=300)
     plt.show()
