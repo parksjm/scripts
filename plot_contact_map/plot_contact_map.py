@@ -82,6 +82,7 @@ def plot_contacts3(inum, jnum, probability, seq_len, outpng):
 
     plt.gca().invert_yaxis()
     ax.xaxis.tick_top()
+    ax.xaxis.set_label_position('top')
 
     plt.scatter(x, y, c = mtx, s=2, marker='o', cmap='Blues')
     plt.xlabel("Residue")
