@@ -1,0 +1,23 @@
+#!/bin/bash -l
+#PBS -l mppwidth=24,walltime=03:30:00
+#PBS -N H2O.Co.2.Corrin.H2O 
+#PBS -j oe
+#PBS -q ccm_queue
+#PBS -V
+
+mol="H2O.Co.2.Corrin.H2O"
+
+dir=$HOME/tpss/$mol
+
+mkdir -p $SCRATCH/g09/$PBS_JOBID
+cd $SCRATCH/g09/$PBS_JOBID
+
+module load ccm
+module load g09/d1
+ulimit -Sv unlimited
+
+#ccmrun g09l $dir/$mol.tpss.631gs.opt.com > $dir/$mol.tpss.631gs.opt.log
+#ccmrun g09l $dir/$mol.tpss.631gs.freq.com > $dir/$mol.tpss.631gs.freq.log
+ccmrun g09l $dir/$mol.tpss.6311pgss.smd_bondi.com > $dir/$mol.tpss.6311pgss.smd_bondi.log
+ccmrun g09l $dir/$mol.tpss.6311ppgdp.sp.com > $dir/$mol.tpss.6311ppgdp.sp.log
+

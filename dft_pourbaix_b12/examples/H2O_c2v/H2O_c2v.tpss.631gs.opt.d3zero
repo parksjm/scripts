@@ -1,0 +1,54 @@
+  _________________________________
+                                   
+ |         DFTD3 V3.1 Rev 0        |
+ | S.Grimme, University Bonn       |
+ |           June  2014            |
+ |   see dftd3 -h for options      |
+  _________________________________
+
+ Please cite DFT-D3 work done with this code as:
+ S. Grimme, J. Antony, S. Ehrlich and H. Krieg,
+ J. Chem. Phys. 132 (2010), 154104
+ If used with BJ-damping cite also
+ S. Grimme, S. Ehrlich and L. Goerigk,
+ J. Comput. Chem. 32 (2011), 1456-1465
+ For DFT-D2 the reference is
+ S. Grimme, J. Comput. Chem., 27 (2006), 1787-1799
+
+  files read :     
+ ./H2O_c2v/H2O_c2v.tpss.631gs.opt.xyz
+C6 coefficients used:
+           2  C6 for element            1
+Z=  1 CN= 0.912     C6(AA)=    3.03
+Z=  1 CN= 0.000     C6(AA)=    7.59
+           3  C6 for element            8
+Z=  8 CN= 0.000     C6(AA)=   15.51
+Z=  8 CN= 0.993     C6(AA)=   12.82
+Z=  8 CN= 1.989     C6(AA)=   10.37
+
+#               XYZ [au]               R0(AA) [Ang.]  CN       C6(AA)     C8(AA)   C10(AA) [au] 
+   1   0.00000   0.00000   0.22973   o     1.241    1.983        10.4       210.2      5195.7
+   2   0.00000   1.44323  -0.91894   h     1.091    0.992         3.1        37.4       553.9
+   3   0.00000  -1.44323  -0.91894   h     1.091    0.992         3.1        37.4       553.9
+
+molecular C6(AA) [au] =        44.54
+
+           DFT-D V3
+ DF tpss                                              
+ parameters
+ s6       :    1.0000
+ s8       :    1.1760
+ rs6      :    1.2130
+ rs18     :    1.0000
+ alpha6   :   14.0000
+ alpha8   :   16.0000
+ k1-k3    :   16.0000    1.3333   -4.0000
+ Cutoff   :   94.8683 a.u.
+ CN-Cutoff:   40.0000 a.u.
+
+ Edisp /kcal,au:    -0.0039 -0.00000615
+
+ E6    /kcal :    -0.0003
+ E8    /kcal :    -0.0036
+ % E8        : 92.76
+ normal termination of dftd3

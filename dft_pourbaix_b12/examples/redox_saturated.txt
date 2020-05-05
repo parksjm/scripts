@@ -1,0 +1,10 @@
+# Co(III) -> Co(II) reductions 
+#H2O.Co.3.Corrin.H2O,BzmH.H2O			H2O.Co.2.Corrin.H2O,BzmH.H2O	 	 0.27
+#H2O.Co.3.Corrin.Bzm,H2O_c2v,H2O_c2v,H+	H2O.Co.2.Corrin.H2O,BzmH.H2O	 	 0.10
+#H2O.Co.3.Corrin.Bzm				H2O.Co.2.Corrin.Bzm			-0.04
+# HO.Co.3.Corrin.Bzm,H+				H2O.Co.2.Corrin.Bzm		 	 0.41
+#
+# Co(II) -> Co(I) reductions 
+#H2O.Co.2.Corrin.H2O,BzmH.H2O			H2O.Co.1.Corrin.H2O,BzmH.H2O		-0.74
+H2O.Co.2.Corrin.Bzm,H2O_c2v,H2O_c2v,H+	H2O.Co.1.Corrin.H2O,BzmH.H2O		-0.58	
+#H2O.Co.2.Corrin.Bzm,H2O_c2v,H2O_c2v	H2O.Co.1.Corrin.H2O,Bzm.H2O		-0.85

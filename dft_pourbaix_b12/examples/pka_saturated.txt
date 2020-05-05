@@ -1,0 +1,4 @@
+#H2O.Co.3.Corrin.Bzm				 HO.Co.3.Corrin.Bzm,H+				 7.8
+#H2O.Co.3.Corrin.H2O,BzmH.H2O			H2O.Co.3.Corrin.Bzm,H2O_c2v,H2O_c2v,H+		-2.4
+#H2O.Co.2.Corrin.H2O,BzmH.H2O			H2O.Co.2.Corrin.Bzm,H2O_c2v,H2O_c2v,H+		 2.9
+H2O.Co.1.Corrin.H2O,BzmH.H2O			H2O.Co.1.Corrin.H2O,Bzm.H2O,H+			 4.7

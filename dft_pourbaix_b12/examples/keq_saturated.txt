@@ -1,0 +1,2 @@
+#H2O.Co.3.Corrin.H2O,Bzm.H2O			H2O.Co.3.Corrin.Bzm,H2O_c2v,H2O_c2v		1.0e8
+H2O.Co.2.Corrin.H2O,Bzm.H2O			H2O.Co.2.Corrin.Bzm,H2O_c2v,H2O_c2v		6.0e1	
