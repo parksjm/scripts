@@ -1,6 +1,6 @@
-#Example scripts for:
+# Example scripts for:
 
-#Toward Quantitatively Accurate Calculation of the Redox-Associated Acid–Base and Ligand Binding Equilibria of Aquacobalamin
+# Toward Quantitatively Accurate Calculation of the Redox-Associated Acid–Base and Ligand Binding Equilibria of Aquacobalamin
 
 R.C. Johnston, J. Zhou, J.C. Smith, and J.M. Parks
 J. Phys. Chem. B, 2016, 120, 7307-7318
